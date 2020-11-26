@@ -28,7 +28,7 @@ Matrix factorization and low rank approach on sparse adjacency matrix.
 
 ## Proposed timeline
 
-1. Reproduce P2 and the individiual part of P4 with the Reddit dataset.
+1. Reproduce P2 and the individual part of P4 with the Reddit dataset.
 2. Report results on prediction using matrix factorization.
 3. Work on the information given by clusters in the networks (can be done in parallel with task 2.)
 
