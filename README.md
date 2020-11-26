@@ -11,6 +11,13 @@
 ## Abstract
 A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why?
 
+*I think that we should decide what exactly it is that we try to achieve. The task sheet seems to spell out what we need to do quite precisely:
+- we could perform a similar analysis as was done in the paper on another dataset. I guess that would be possible with the Reddit data.
+- we can propose additional research questions. For instance, we could ask how efficient the networks are. In this case it might be interesting to look into the average shortest path length, small-world properties, ect. Ideally, we could compare that to other networks. Alternatively, we could also ask if we can predict links accurately. With a logistic regression we could try to disentangle the effects of embeddedness, local clustering, triadic type etc. on the missing link. We could also une a matrix factorization. This technique has the advantage that its results are to some degree interpretable. In a sense, it gives an estimate of how similar different users are with respect to the people they like and also which other people tend to like them. This would be yet another model next to status and balance. We would implicitly create a "psychological" profile of users, which could be predictive of the signs edges based on **similarity**.
+- we could try to improve the methods. E.g. it would be possible to dig a little deeper when it comes to this theory of positive clusters and negative bridges between them. We could try to use the "graph laplacian" to get the sparsest cut... This is easy to implement with networkx.
+
+*I do not think we should do all the above at once.
+
 We would like to go beyond the different theories of social networks and work with unsupervised machine learning techniques for prediction purpose.
 
 ## Research Questions
