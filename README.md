@@ -14,12 +14,12 @@ Second, we wish to come up with models that predict edge signs to better underst
 
 ### Research Questions
 1. Are signed networks from different social media platforms alike in terms of additional graph-theoretical properties?
-2. Do these networks efficient and do they have small-world properties?
+2. Are these networks efficient and do they have small-world properties?
 3. Can we validate the claim made by Leskovec *et al.* that negative edges tend to connect dense positive clusters?
 4. Is it possible to predict the sign of an edge accurately? What can such a models reveal about the psychology of signed interactions on social media?
 
 ### Proposed additional dataset
-In addition to the datasets used by Leskovec *et al.*, we are considering a similar dataset from the same [website](https://snap.stanford.edu/data/#signnets) where the other datasets can be obtained. This dataset contains links between subreddits on Reddit. A subreddit is a community on the social media platform Reddit. Links are represented by a sentiment of the source community post towards the target community post, taking value +1 or -1. The signed network can easily be computed from this dataset. This dataset has a number of nodes and edges comparable to the original datasets. Its format is therefore equivalent to the Slashdot and Epinions datasets.
+In addition to the datasets used by Leskovec *et al.*, we are considering a similar dataset from [this website](https://snap.stanford.edu/data/#signnets) where the other datasets can be obtained as well. This dataset contains links between subreddits on Reddit. A subreddit is a community on the social media platform Reddit. Links are represented by a sentiment of the source community post towards the target community post, taking value +1 or -1. The signed network can easily be computed from this dataset. This dataset has a number of nodes and edges comparable to the original datasets. Its format is therefore equivalent to the Slashdot and Epinions datasets.
 
 ### Methods
 For the first part, we will be using [NetworkX](https://networkx.org/) to compare [clustering coefficients](https://en.wikipedia.org/wiki/Clustering_coefficient) and [average path lengths](https://en.wikipedia.org/wiki/Shortest_path_problem). We are also computing the [graph laplacian](https://en.wikipedia.org/wiki/Laplacian_matrix) to obtain the sparsest cut.
