@@ -40,5 +40,5 @@ In the second part, we will use [singular value decomposition](https://en.wikipe
 
 Up until now, the collaboration in the team went smoothly. We had a flexible organization for the homework; each one of us was just doing the next step that needed to be done whenever he had time to work on it. We communicated frequently and when a task was not straight-forward, we helped each other out right away. Overall, each of us invested roughly the same amount of time. Because this laissez-faire approach worked so well, we plan to continue in the same manner. Should we not be able to stick to the proposed timeline or if we notice that the workload gets unequally distributed, we can always fall back on a stricter regime.
 
-#### Ressources
+#### Resources
 CHIANG, Kai-Yang, HSIEH, Cho-Jui, NATARAJAN, Nagarajan, et al. Prediction and clustering in signed networks: a local to global perspective. The Journal of Machine Learning Research, 2014, vol. 15, no 1, p. 1177-1213.
