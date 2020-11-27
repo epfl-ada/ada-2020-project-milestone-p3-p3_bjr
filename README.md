@@ -19,18 +19,17 @@ Second, we wish to come up with models that predict edge signs to better underst
 4. Is it possible to predict the sign of an edge accurately? What can such a models reveal about the psychology of signed interactions on social media?
 
 ### Proposed additional dataset
-In addition to the datasets used by Leskovec *et al.*, we are considering a similar dataset from the same [website](https://snap.stanford.edu/data/#signnets) where the other datasets can be obrained. This dataset contains links between subreddits on Reddit. A subreddit is a community on the social media platform Reddit. Links are represented by a sentiment of the source community post towards the target community post, taking value +1 or -1. The signed network can easily be computed from this dataset. This dataset has a number of nodes and edges comparable to the original datasets. Its format is therefore equivalent to the Slashdot and Epinions datasets.
+In addition to the datasets used by Leskovec *et al.*, we are considering a similar dataset from the same [website](https://snap.stanford.edu/data/#signnets) where the other datasets can be obtained. This dataset contains links between subreddits on Reddit. A subreddit is a community on the social media platform Reddit. Links are represented by a sentiment of the source community post towards the target community post, taking value +1 or -1. The signed network can easily be computed from this dataset. This dataset has a number of nodes and edges comparable to the original datasets. Its format is therefore equivalent to the Slashdot and Epinions datasets.
 
 ### Methods
 For the first part, we will be using [NetworkX](https://networkx.org/) to compare [clustering coefficients](https://en.wikipedia.org/wiki/Clustering_coefficient) and [average path lengths](https://en.wikipedia.org/wiki/Shortest_path_problem). We are also computing the [graph laplacian](https://en.wikipedia.org/wiki/Laplacian_matrix) to obtain the sparsest cut.
-In the second part, we will use [SVD](https://en.wikipedia.org/wiki/Singular_value_decomposition) to perform the matrix factorization.
-we will use unsupervized ML methods in order to obtain data from which we could determine several properties of the network. For the prediction part, we would use logistric regression, matrix factorization and low rank approach on sparse adjacency matrix. To learn from the "psychological" profile of users, we would have to find a way to show our data in a representative way, perhaps using dimensionality reduction techniques such as PCA or t-SNE.
+In the second part, we will use [Singular value decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition) (SVD) to perform the matrix factorization. To visualize the "preference profiles" of users, we could be using clustering and dimensionality reduction techniques such as PCA or t-SNE. For the logistic regression part, we are going to generate features which are expected to have more or less predictive power depending on the different theoretical considerations (e.g. the number of common neighbors, a balance and a status score based on the triads that the edge is involved in, etc.).
 
 ### Proposed timeline
-1. Reproduce P2 and the individual part of P4 with the Reddit dataset in order to see wether this dataset is different from the others.
-2. Analyze several properties of the networks, determine suitable methods to obtain data that could be used for this task.
-3. Report results on prediction using matrix factorization and logistic regression.
-4. If 3. is successful, work on the information given by clusters in the networks and find ways to represent this information.
+1. Reproduce P2 and the individual part of P4 with the Reddit dataset in order to see whether this dataset is similar to the others.
+2. Analyze above-mentioned properties of the networks.
+3. Perform matrix factorization, subsequent clustering and logistic regression.
+4. Discuss and visualize the findings.
 5. Prepare the data story and the short video.
 
 ### Organization within the team
