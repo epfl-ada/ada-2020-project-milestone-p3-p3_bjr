@@ -29,7 +29,7 @@ In the second part, we will use [singular value decomposition](https://en.wikipe
 
 #### Week 1
 1. Reproduce P2 and the individual part of P4 with the Reddit dataset in order to see whether this dataset is similar to the others.
-2. Analyze above-mentioned properties of the networks.
+2..
 #### Week 2
 3. Perform matrix factorization, subsequent clustering and logistic regression.
 4. Discuss and visualize the findings.
