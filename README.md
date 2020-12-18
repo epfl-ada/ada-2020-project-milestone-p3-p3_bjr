@@ -46,9 +46,9 @@ Up until now, the collaboration in the team went smoothly. We had a flexible org
 
 **Jimmy Wilde**: feature matrix used for the regression
 
-**Romain Gros**: training the model, reporting result of prediction, visualization of the preferences profiles of users
+**Romain Gros**: training the model, reporting result of prediction, visualization of the "preference profiles" of users
 
-We have worked conjointly on the report.
+Everything else including the report was real teamwork.
 
 #### Resources
 CHIANG, Kai-Yang, HSIEH, Cho-Jui, NATARAJAN, Nagarajan, et al. Prediction and clustering in signed networks: a local to global perspective. The Journal of Machine Learning Research, 2014, vol. 15, no 1, p. 1177-1213.
