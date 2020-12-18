@@ -42,9 +42,11 @@ Up until now, the collaboration in the team went smoothly. We had a flexible org
 
 ### Contributions of group member
 
-Balz Marty: replication of P3 with the Reddit dataset, analyzing properties of the network
-Jimmy Wilde: feature matrix used for the regression
-Romain Gros: training the model, reporting result of prediction, visualization of the preferences profiles of users
+**Balz Marty**: replication of P3 with the Reddit dataset, analyzing properties of the network
+
+**Jimmy Wilde**: feature matrix used for the regression
+
+**Romain Gros**: training the model, reporting result of prediction, visualization of the preferences profiles of users
 
 We have worked conjointly on the report.
 
